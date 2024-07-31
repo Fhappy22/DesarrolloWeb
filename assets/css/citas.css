@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
+
+.title {
+    margin-top: 80px; /* Ajustar para dar más espacio entre el título y los iconos */
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #FEF445;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    max-width: 400px;
+}
+
+.textarea-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, sans-serif;
+}
+
+.date-time-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.date-time-label {
+    font-size: 16px;
+    color: #FEF445;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.date-time-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px dashed #FEF445;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload label {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.file-upload img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 400px;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.nav-buttons button {
+    width: 48%;
+    padding: 10px;
+    background-color: #FEF445;
+    color: #1A1A1A;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #E6DA3B;
+}
